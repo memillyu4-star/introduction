@@ -1,0 +1,45 @@
+* {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	word-break: keep-all;
+	background: #f9f6ed;
+}
+
+a {
+   color: greenyellow;
+   text-decoration: none;
+}
+
+.red {
+	color: red;
+}
+
+
+
+ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 0; 
+	font-size: 20px;
+	align-items: center;
+	list-style: none;
+}
+div {
+	/*border: 2.5px solid lightgray;*/
+	padding: 10px;
+}
+
+p {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+li {
+	border: 5px solid lightgray;
+	border-width: 5px;
+	width: 300px;
+	text-align: center;
+}
+
