@@ -43,3 +43,23 @@ li {
 	text-align: center;
 }
 
+@media screen and (max-width: 900px) {
+	section {
+		flex-direction: column;
+	}
+
+img {
+  display: block;                    
+  margin: 0 auto;         
+  max-width: 100%;         
+  height: auto;             
+  border-radius: 8px;       
+}
+
+figure {
+  text-align: center;
+  margin: 20px auto;
+
+	}
+
+
